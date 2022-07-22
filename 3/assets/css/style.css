@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,500;1,400;1,700&display=swap");
+
+:root {
+  /* Primary */
+  --light-red-CTA-text: hsl(356, 100%, 66%);
+  --Very-light-red-CTA-hover-background: hsl(355, 100%, 74%);
+  --Very-dark-blue-headings: hsl(208, 49%, 24%);
+
+  /* Neutral */
+  --White: hsl(0, 0%, 100%);
+  --Grayish-blue-footer-text: hsl(240, 2%, 79%);
+  --Very-dark-grayish-blue: hsl(207, 13%, 34%);
+  --Very-dark-black-blue: hsl(240, 10%, 16%);
+
+  /* Gradient */
+  /* Background-gradient-Intro-CTA-mobile-nav */
+  --Very-light-red: hsl(13, 100%, 72%);
+  --Light-red: hsl(353, 100%, 62%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Overpass", sans-serif;
+  overflow-x: hidden;
+}
+
+/* fonts 
+font-family: 'Ubuntu', sans-serif;
+*/
+
+/* universal selectors */
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* nav */
+
+nav {
+  height: 150px;
+}
+
+nav a {
+  display: inline-block;
+  font-size: 17px;
+  color: var(--White);
+}
+
+nav .main-menu {
+  margin-right: auto;
+  margin-left: 5%;
+}
+
+nav li {
+  padding: 0 15px;
+}
+
+nav .main-menu li {
+  /* padding: 0 15px; */
+}
+
+.hero {
+  background: var(--Light-red) url(../images/bg-pattern-intro-desktop.svg);
+  height: 98vh;
+}
+
+/* cta */
+
+.cta {
+  height: 70vh;
+}
+
+.cta h1 {
+  font-size: 3.6em;
+  color: #fff;
+}
+
+.cta h3 {
+  font-size: 1.4em;
+  font-weight: 100;
+  color: #fff;
+}
+
+/* features-top */
+.features-top {
+  position: relative;
+  /* padding: 10em 0; */
+
+  /* height: 150vh; */
+}
+
+.features-top h1 {
+  font-size: 34px;
+  position: absolute;
+  left: 30%;
+  margin-top: 5%;
+}
+
+.features-top .text-header {
+  margin-top: 20%;
+  line-height: 1.7;
+  width: 45%;
+}
+
+.features-top .img-section {
+  width: 46%;
+}
+
+/* features-middle */
+.features-middle {
+  background: orange url(../images/bg-pattern-intro-desktop.svg);
+  border-radius: 0 50px 0 0;
+}
+
+.features-middle .img-section {
+  width: 65%;
+}
+
+/* Features bottom */
+.features-bottom {
+  margin: 1% 0;
+}
+
+.features-bottom .img-section {
+  margin-left: -38%;
+  margin-right: auto;
+}
+
+.features-bottom img {
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* height: 10%; */
+  /* width: 125%; */
+}
+
+.features-bottom .text-header {
+  width: 50%;
+}
+
+/* footer */
+footer {
+  background-color: aqua;
+}

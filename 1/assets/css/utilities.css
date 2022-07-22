@@ -1,0 +1,162 @@
+.txt-light {
+  opacity: 0.5;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container-lg {
+  width: 100%;
+}
+
+.btn-primary {
+  display: inline-block;
+  background-color: var(--Bright-Red);
+  box-shadow: -2px 8px 8px 0px rgba(230, 144, 144, 0.75);
+  padding: 15px 30px;
+  font-size: 12px;
+  border-radius: 50px;
+  border: none;
+  color: #fff;
+}
+
+.btn-secondary {
+  display: inline-block;
+  background-color: #fff;
+  padding: 15px 30px;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 50px;
+  border: none;
+  color: var(--Bright-Red);
+}
+
+
+/* flex utilites */
+.flex-justify-space-around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.flex-justify-space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-justify-space-evenly {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+.flex-align-center {
+  display: flex;
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+}
+
+/* flex utilites */
+
+
+
+/* grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+}
+
+/* margin */
+.my-1 {
+  margin: 1em 0;
+}
+
+.my-2 {
+  margin: 2em 0;
+}
+
+.my-3 {
+  margin: 3em 0;
+}
+
+.my-4 {
+  margin: 4em 0;
+}
+
+.my-5 {
+  margin: 5em 0;
+}
+
+/* Padding */
+.py-1 {
+  margin: 1em 0;
+}
+
+.py-2 {
+  margin: 2 0;
+}
+
+.py-3 {
+  margin: 3em 0;
+}
+
+.py-4 {
+  margin: 4em 0;
+}
+
+.py-5 {
+  margin: 5em 0;
+}
+
+/* max-width */
+.mx-w1 {
+  max-width: 50%;
+}
+
+.mx-w2 {
+  max-width: 60%;
+}
+
+.mx-w3 {
+  max-width: 70%;
+}
+
+.mx-w4 {
+  max-width: 80%;
+}
+
+/* max-width */
+
+/* font size */
+.sm {
+  font-size: 0.7em;
+}
+
+.md {
+  font-size: 1.5em;
+}
+
+.lg {
+  font-size: 2.5em;
+}
+
+.xl {
+  font-size: 3.6em;
+}
+
+/* font size */
+
+/* utility classes */

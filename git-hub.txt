@@ -1,0 +1,20 @@
+git config --global user.name
+
+git config --global user.email johndoe@example.com
+
+
+git config --global user.name "subbu9848"
+
+git config --global user.email manya.aithal@gmail.com
+
+
+===========
+
+
+echo "# front-end-mentor-challenges" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M "main"
+git remote add origin https://github.com/subbu9848/front-end-mentor-challenges.git
+git push -u origin "main"
